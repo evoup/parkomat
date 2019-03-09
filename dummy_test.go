@@ -1,4 +1,4 @@
-package parkomat
+package main
 
 import "testing"
 
