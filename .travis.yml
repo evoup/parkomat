@@ -4,6 +4,7 @@ go:
   - tip
 before_script:
   - mkdir -p /home/travis/gopath/src/golang.org/x/
+  - ls -la /home/travis/gopath/src/golang.org/x/
 
   - git clone https://github.com/golang/sys.git /home/travis/gopath/src/golang.org/x/sys
 
