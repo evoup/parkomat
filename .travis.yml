@@ -1,7 +1,7 @@
 language: go
 go:
   - "1.10"
-  - tip
+  #- tip
 before_script:
   - mkdir -p /home/travis/gopath/src/golang.org/x/
   #- ls -la /home/travis/gopath/src/golang.org/x/
