@@ -1,4 +1,4 @@
-Parkomat.io [![Build Status](https://travis-ci.org/parkomat/parkomat.svg?branch=master)](https://travis-ci.org/parkomat/parkomat)
+Parkomat.io [![Build Status](https://travis-ci.org/evoup/parkomat.svg?branch=feature%2Ftest_travis)](https://travis-ci.org/evoup/parkomat)
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ### What is it?
