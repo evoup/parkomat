@@ -1,4 +1,4 @@
-Parkomat.io [![Build Status](https://travis-ci.org/parkomat/parkomat.svg?branch=master)](https://travis-ci.org/parkomat/parkomat)
+Parkomat.io [![Build Status](https://travis-ci.org/evoup/parkomat.svg?branch=master)](https://travis-ci.org/evoup/parkomat)
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ### What is it?
@@ -74,7 +74,7 @@ MX = '''
 '''
 
 [web]
-ip = "127.0.0.1"
+ip = "0.0.0.0"
 port = 80
 path = "./www"
 

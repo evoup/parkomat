@@ -1,7 +1,17 @@
 language: go
 go:
-  - 1.8
-  - tip
+  - "1.10"
+  #- tip
+before_script:
+  - mkdir -p /home/travis/gopath/src/golang.org/x/
+  #- ls -la /home/travis/gopath/src/golang.org/x/
+
+  #- git clone https://github.com/golang/sys.git /home/travis/gopath/src/golang.org/x/sys
+
+  - git clone https://github.com/golang/text.git /home/travis/gopath/src/golang.org/x/text
+
+  #- git clone https://github.com/golang/net.git /home/travis/gopath/src/golang.org/x/net
+
 install:
   - go get -t ./...
-script: GOMAXPROCS=4 GORACE="halt_on_error=1" go test -race -v ./...
+script: GOMAXPROCS=4 GORACE="halt_on_error=1" go test -run="dns" -race -v ./...
